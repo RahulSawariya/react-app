@@ -12,13 +12,15 @@ code {
     monospace;
 }
 
-.temp{
+.fontStyle{
   font-family: 'Roboto', sans-serif;
 }
 
-.trial{
-  color :"blue";
-  font-size : "20px";
-  text-shadow : "2px 5px 2px black";
-  font-style:"italic";
+.inputWidth{
+  width: 500px;
+}
+
+.formCenterAlign{
+  width: 500px;
+  margin: 10px auto;
 }

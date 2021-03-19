@@ -1,12 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './Heading';
+import Sampleform,{CurrentTime} from './Heading';
 
-ReactDOM.render(
-  <>
-    <ol>
-      <li><App /></li>
-    </ol>
-    </>,
-  document.getElementById("root")
-);
+ReactDOM.render(<><CurrentTime/><Sampleform /></>,document.getElementById("root"));
